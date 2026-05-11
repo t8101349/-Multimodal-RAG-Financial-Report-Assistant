@@ -189,18 +189,9 @@ pytest tests/ -v
 
 ---
 
-## 已知限制
-
-1. **頁面級粒度**：對極長跨頁表格仍可能斷裂；後續可加入 patch-level 或頁面切片。
-2. **檢索品質受視覺模型影響**：CLIP 備援對純文檔影像並非最佳，正式環境建議優先 Byaldi + ColPali。
-3. **生成品質受 VLM 影響**：截圖過密、字體過小、模型視覺極限都會造成「讀錯數字」風險。
-4. **評測規模有限**：內建 8 題僅供方法驗證；正式上線需擴充至數十至上百題。
-5. **失敗樣本庫尚薄**：`failure_replay.jsonl` 初始為空，建議在使用過程中持續累積。
-
----
-
 ## 進階：接入真實 VLM
 
+要把 .env.example 複製成 .env 並填入金鑰
 `src/vlm_client.py` 的 `VLMClient` 完全相容 OpenAI Chat Completions 規格。
 
 範例（DashScope）：
@@ -221,6 +212,14 @@ python -m vllm.entrypoints.openai.api_server \
 export VLM_BASE_URL=http://localhost:8000/v1
 export VLM_API_KEY=EMPTY  # vLLM 預設不檢查
 export VLM_MODEL=Qwen/Qwen2.5-VL-7B-Instruct
+```
+
+---
+## 如何換成自己的財報 PDF
+把任何中文財報放到 data/pdfs/your_report.pdf，再執行：
+
+```bash
+python scripts/build_index.py --pdf data/pdfs/your_report.pdf --backend auto
 ```
 
 ---
