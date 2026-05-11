@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "page_index": 1,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p001.jpg",
+      "text": "繁星科技股份有限公司 2024 年度報告 封面",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 2,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p002.jpg",
+      "text": "目錄\n致股東報告書 ............ 3\n經營概要 ............ 4\n核心財務指標 ............ 5\n研發投入趨勢 ............ 6\n業務板塊收入結構 ............ 7\n資產負債表 ............ 8\n重要會計政策附註 ............ 9\n風險因素 ............ 10\n企業社會責任 ............ 11\n後續事項 ............ 12\n",
+      "is_likely_toc": true
+    },
+    {
+      "page_index": 3,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p003.jpg",
+      "text": "致股東報告書 2024 年合併營業收入 482.6 億元，年增 18.7%。歸屬母公司業主之淨利為 92.4 億元，年增 15.3%。",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 4,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p004.jpg",
+      "text": "經營概要 三大業務板塊：先進製程晶圓代工、特殊製程晶圓代工、封裝測試，合計佔合併營業收入 96.4%。",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 5,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p005.jpg",
+      "text": "核心財務指標 營業收入 482.6 億元 營業毛利 212.4 億元 營業利益 118.3 億元 稅後淨利 92.4 億元 每股盈餘 EPS 9.24 元 研發投入 12.7 億 研發投入佔營收比 2.6%",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 6,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p006.jpg",
+      "text": "研發投入趨勢 2022 年 8.6 億 2023 年 10.4 億 2024 年 12.7 億 近三年成長 47.7% 反映集團對先進製程與封裝技術的長期承諾。",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 7,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p007.jpg",
+      "text": "業務板塊收入結構 先進製程晶圓代工 248.7 億 51.5% 特殊製程晶圓代工 126.4 億 26.2% 封裝測試 90.0 億 18.7% 技術授權與工程服務 17.5 億 3.6% 合計 482.6 億 100.0%",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 8,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p008.jpg",
+      "text": "資產負債表 流動資產 316.8 億 非流動資產 542.1 億 總資產 858.9 億 流動負債 192.5 億 非流動負債 180.4 億 總負債 372.9 億 歸屬母公司業主權益 486.0 億",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 9,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p009.jpg",
+      "text": "重要會計政策附註 存貨採加權平均法 固定資產採直線法折舊 建築物耐用年限 20 至 40 年 機器設備 5 至 10 年 無形資產 38.6 億",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 10,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p010.jpg",
+      "text": "風險因素 全球景氣循環導致需求波動 主要客戶集中度偏高 前五大客戶 62.4% 地緣政治造成關鍵原物料供應風險 匯率波動 美元計價收入比重 78.5%",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 11,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p011.jpg",
+      "text": "企業社會責任 推動淨零碳排目標 溫室氣體排放強度下降 16% 通過 ISO 14064-1 查證 贊助 STEM 教育 培訓 1820 名工程師",
+      "is_likely_toc": false
+    },
+    {
+      "page_index": 12,
+      "image_path": "D:/project_RAG/data/page_images/synthetic_p012.jpg",
+      "text": "後續事項 董事會通過配發 2024 年度現金股利每股 4.5 元 預計 2025 年 6 月除息 簽訂為期 5 年長期供應合約 預計合約期間累計營收約 850 億",
+      "is_likely_toc": false
+    }
+  ]
+}

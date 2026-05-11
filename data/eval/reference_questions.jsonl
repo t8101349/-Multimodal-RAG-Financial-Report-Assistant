@@ -1,0 +1,8 @@
+{"qid": "Q01", "question": "2024 年度的合併營業收入是多少？", "expected_pages": [5], "expected_keywords": ["482.6", "億"]}
+{"qid": "Q02", "question": "近三年研發投入的趨勢如何？", "expected_pages": [6], "expected_keywords": ["研發", "12.7"]}
+{"qid": "Q03", "question": "公司的主要業務板塊有哪些？各佔多少營收？", "expected_pages": [4, 7], "expected_keywords": ["先進製程", "封裝"]}
+{"qid": "Q04", "question": "2024 年末總資產是多少？", "expected_pages": [8], "expected_keywords": ["858.9", "總資產"]}
+{"qid": "Q05", "question": "公司面臨的主要風險是什麼？", "expected_pages": [10], "expected_keywords": ["客戶", "匯率"]}
+{"qid": "Q06", "question": "2024 年的稅後淨利與每股盈餘分別是多少？", "expected_pages": [5], "expected_keywords": ["92.4", "9.24"]}
+{"qid": "Q07", "question": "研發投入佔營業收入的比重是多少？", "expected_pages": [5], "expected_keywords": ["2.6", "%"]}
+{"qid": "Q08", "question": "公司董事會通過 2024 年度現金股利每股多少元？", "expected_pages": [12], "expected_keywords": ["4.5", "現金股利"]}

@@ -1,0 +1,10 @@
+{
+  "pdf": "synthetic://demo.pdf",
+  "page_count": 12,
+  "page_units_path": "D:/project_RAG/data/processed/page_units.jsonl",
+  "index_dir": "D:/project_RAG/data/processed/mock_index",
+  "backend": "mock",
+  "toc_pages": [
+    2
+  ]
+}

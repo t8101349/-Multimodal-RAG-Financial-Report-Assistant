@@ -1,0 +1,38 @@
+# ============================================================
+# 多模態 RAG 財報助手 - 相依套件清單
+# ============================================================
+# 安裝方式：
+#   pip install -r requirements.txt
+#
+# 分組安裝建議：
+#   1) 最小可運行（PDF + CLIP 備援 + 評測）
+#        pip install PyMuPDF Pillow numpy requests python-dotenv pydantic reportlab
+#        pip install torch transformers open_clip_torch
+#   2) 完整視覺檢索（ColPali 主路徑）
+#        pip install byaldi colpali-engine
+#   3) 本地 VLM（若不使用 OpenAI 相容 API）
+#        pip install qwen-vl-utils
+# ============================================================
+
+# --- 基礎 ---
+PyMuPDF>=1.24.0           # PDF 頁面渲染（fitz）
+Pillow>=10.0.0            # 影像處理
+numpy>=1.24.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+reportlab>=4.0.0          # 用於產生測試 PDF
+
+# --- 視覺檢索主路徑 (Byaldi + ColPali) ---
+# 此分組可能受限於 PyTorch / CUDA 版本，預設不強制安裝
+# byaldi>=0.0.5
+# colpali-engine>=0.3.0
+
+# --- 視覺檢索備援 (CLIP) ---
+torch>=2.1.0
+transformers>=4.40.0
+# open_clip_torch>=2.24.0   # 若改用 OpenCLIP 取代 HF transformers
+
+# --- 評測與報告 ---
+tabulate>=0.9.0           # 文字表格輸出
+tqdm>=4.66.0

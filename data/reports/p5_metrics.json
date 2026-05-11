@@ -1,0 +1,9 @@
+{
+  "n": 8,
+  "hit_rate_at_k": 1.0,
+  "citation_accuracy": 0.0,
+  "keyword_recall": 0.0,
+  "avg_latency_total_ms": 0.9961125033441931,
+  "avg_latency_vlm_ms": 1.0,
+  "avg_total_tokens": 0.0
+}
