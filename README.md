@@ -189,7 +189,7 @@ pytest tests/ -v
 
 ---
 
-## 進階：接入真實 VLM
+## 如何接入真實 VLM
 
 要把 .env.example 複製成 .env 並填入金鑰
 `src/vlm_client.py` 的 `VLMClient` 完全相容 OpenAI Chat Completions 規格。
